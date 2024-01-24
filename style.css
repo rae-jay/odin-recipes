@@ -1,0 +1,25 @@
+*{font-family: "Arial", sans-serif;}
+
+/*remove bullet points from all uls*/
+ul{ list-style-type: none}
+
+/*page header*/
+h1{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    background-color: lime;
+}
+
+/**/
+.gridList { display:flex;
+}
+
+.mainLI{ /*box-sizing: border-box;*/
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    background-color: hotpink;
+    margin: 10px;
+}
